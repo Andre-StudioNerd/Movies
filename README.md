@@ -1,43 +1,133 @@
-![Descricao da sua imagem](thumb-react-ts.png)
+# Movies 🎬
 
-# Luz e Cena
+Repositório do projeto **Movies**, desenvolvido para listar e exibir detalhes sobre filmes. A aplicação consome uma API externa e apresenta os dados de forma organizada e responsiva.
 
-Landing page de um site focado em cinema, que exibe os filmes em cartaz e que ainda vão estrear permitindo selecionar localidade, buscar filmes pelo título, se inscrever para receber informações e muito mais.
+🔗 **Link do Projeto:**  
+https://github.com/Andre-StudioNerd/Movies
 
-## 🔨 Funcionalidades do projeto
+---
 
-A página possui um cabeçalho, um banner, uma lista de filmes, uma seção de newsletter e um rodapé. Os filmes são retornados de uma API's local usando o JSON server. Possui a funcionalidade de filtrar os filmes no campo de busca por título.
+## 📌 Índice
 
-<p align="center">
-  <img src="./img1.png" alt="Tela desktop" width="50%" style="vertical-align: top; margin-right: 20px;" />
-  <img src="./img2.png" alt="Tela desktop" width="50%" style="vertical-align: top; margin-right: 20px;"/>
-</p>
+- [Sobre](#sobre)
+- [Funcionalidades](#funcionalidades)
+- [Tecnologias](#tecnologias)
+- [Como Usar](#como-usar)
+- [Estrutura de Pastas](#estrutura-de-pastas)
+- [Contribuindo](#contribuindo)
+- [Licença](#licenca)
+- [Contato](#contato)
 
-## ✔️ Técnicas e tecnologias utilizadas
+---
 
-As técnicas e tecnologias utilizadas pra isso são:
+## 📖 Sobre
 
-- `React`: principal biblioteca para construção da interface
-- `Typescript`: para adicionar tipagem estática na aplicação
-- `Figma`: Protótipo de design da página
-- `JSON server`: para simular uma api local
-- `classnames`: para lidar com classes CSS e estilização dinâmica
-- `react-icons`: biblioteca de ícones do React
-- `CSS modules`: para escrever css no React
+O **Movies** é um projeto web criado para praticar consumo de APIs e uso de rotas dinâmicas. Ele busca dados de uma API de filmes e exibe informações como título, descrição, avaliação e imagem de capa.
 
-## 📁 Acesso ao projeto
+---
 
-Você pode [acessar o código fonte do projeto inicial](https://github.com/NeiltonSeguins/4472-react-ts) ou [baixá-lo](https://github.com/NeiltonSeguins/4472-react-ts/archive/refs/heads/aula-01.zip). Se você quiser acessar o figma do projeto, só [clicar neste link](https://www.figma.com/community/file/1464265240934231932).
+## ✅ Funcionalidades
 
-## 🛠️ Abrir e rodar o projeto
+- Listagem de filmes populares
+- Visualização de detalhes do filme
+- Layout responsivo para diferentes dispositivos
+- Navegação com rotas dinâmicas
 
-Após baixar o projeto, você pode abri-lo no Visual Studio Code. Para isso, siga os passos abaixo:
+---
 
-1. No menu superior do VS Code, clique em:
-   * **File > Open Folder** (ou uma opção similar).
-2. Procure o local onde o projeto foi salvo e selecione a pasta (se o projeto foi baixado como um arquivo ZIP, será necessário extraí-lo antes).
-3. Clique em **OK**.
+## 🚀 Tecnologias
 
-## 📚 Mais informações do curso
+As principais tecnologias utilizadas no projeto são:
 
-Gostou do projeto e quer conhecer mais? Você pode [acessar o curso](https://cursos.alura.com.br) que desenvolve o projeto desde o começo!
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- React
+- React Router DOM
+- API TMDb (The Movie Database)
+
+---
+
+## ▶️ Como Usar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Andre-StudioNerd/Movies.git
+   ```
+
+2. Navegue até o diretório:
+   ```bash
+   cd Movies
+   ```
+
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+4. Execute o projeto localmente:
+   ```bash
+   npm start
+   ```
+
+5. Acesse:
+   ```
+   http://localhost:3000
+   ```
+
+> É necessário ter o Node.js instalado na máquina.
+
+---
+
+## 📁 Estrutura de Pastas
+
+```
+Movies/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── styles/
+├── package.json
+└── README.md
+```
+
+---
+
+## 🤝 Contribuindo
+
+Contribuições são bem-vindas! Para contribuir:
+
+1. Fork este repositório
+2. Crie uma branch com a sua feature:
+   ```bash
+   git checkout -b minha-feature
+   ```
+3. Commit suas alterações:
+   ```bash
+   git commit -m "feat: minha nova feature"
+   ```
+4. Push para a branch:
+   ```bash
+   git push origin minha-feature
+   ```
+5. Abra um Pull Request
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+## 📬 Contato
+
+André - Desenvolvedor Front-end  
+GitHub: [@Andre-StudioNerd](https://github.com/Andre-StudioNerd)  
+Portfólio: https://andre-studionerd.github.io/andreportfolio
+
+---
